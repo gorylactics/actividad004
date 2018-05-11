@@ -4,8 +4,9 @@
 }
 
 body{
-	font-family: "Helvetica", sans-serif;
+	font-family: font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
+	font-weight: 300;
 }
 
 h1{
@@ -31,6 +32,29 @@ section{
 .container-large{
 	max-width: 960px;
 	margin: 0 auto;
+}
+
+.button{
+	background-color: blue;
+	color: white;
+	border-radius: 5px;
+	padding: 15px;
+	text-decoration: none;
+	display: inline-block;
+	margin:8px;
+	transition: all 0.3s;
+}
+
+.button:hover{
+	background-color: gold;
+}
+
+.buttongreen{
+	background-color: green;
+}
+
+.buttongreen:hover{
+	background-color: red;
 }
 /*  HEADER */
 
