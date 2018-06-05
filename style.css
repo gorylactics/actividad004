@@ -20,19 +20,15 @@ h2{
 	font-size: 18px;
 }
 
-section{
-	padding-top: 60px;
-}
-
 .img2{max-width: 50%;
 	
-
 }
 
 /* Generales*/
 .container{
 	max-width: 580px;
 	margin: 0 auto;
+	margin-bottom: 0;
 }
 
 .container-large{
@@ -62,6 +58,10 @@ section{
 .buttongreen:hover{
 	background-color: red;
 }
+
+.buttonenvio{
+	font-size: 35px;
+}
 /*  HEADER */
 
 header{
@@ -72,11 +72,6 @@ header{
 }
 
 /* navegacion */
-
-
-nav{
-	background-color: red;
-}
 
 nav ul{
 	list-style: none;
@@ -98,11 +93,80 @@ nav ul li a {color:white;
 			text-decoration: none;
 			opacity: 0.5;
 			transition: opacity 0.3s;
-			}
+}
 
 nav ul li a:hover{
 	opacity: 1;
 }
 
+.fondogris{
+	background-color: #F2F2F2;
+	max-width: 100%;
+	border-top:solid grey 1px;
+	border-bottom: solid grey 1px;
+	padding-top: 40px;
+	padding-bottom: 60px;
+
+}
+
+.superior{
+	padding-top: 20px;
+}
+
+.textocentrado{
+	padding-left: 27%;
+	padding-right: 27%;
+}
+
+.final{
+	background-color: #151515;
+	width: 100%;
+	height: 50px;  
+}
+
+.g8{
+	text-align: left;
+	color:white;
+	padding-top: 20px;
+	margin-left: 15%;
+}
+
+.contacto{
+	max-width: 100%;
+	height: 200px;
+}
+
+.izquierda{
+	margin-top: 50px;
+	padding-top: 20px;
+	display: block;
+	float: left;
+	margin-left: 27%;
+	text-align: left;
+}
+
+.email{
+	position: absolute;
+	float: left;
+	margin-top: -2%;
+	margin-left: 173px;
+}
+
+.derecha{
+	margin-top: 50px;
+	padding-top: 20px;
+	display: block;
+	margin-left: 13%;
+	text-align: left;
+	float: left;
+
+}
+
+.cajadetexto{
+	font-size: 15px;
+	margin-right: 5px;
+}
+
+	
 
 
